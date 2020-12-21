@@ -66,6 +66,10 @@ h1 {
    height: 50vh;
  }
 
+ sup {
+   color: #ee5253;
+ }
+
 .meal-options-form {
   display: flex;
   flex-direction: column;
@@ -78,19 +82,37 @@ h1 {
    border: 1px;
    border-radius: 4px;
    background-color: #0fb9b1;
-   height: 50px;
-   width: 200px;
-
+   height: 40px;
+   width: 220px;
+   margin-top: 30px;
  }
 
+.cookpot-image {
+  background-image: url("./assets/cookpot.svg");
+}
+
  .cookpot-box {
-   background-image: url("./assets/cookpot.svg");
    background-position: center;
    background-repeat: no-repeat;
    background-color: rgba(225, 225, 225, .9);
+   vertical-align: center;
+   text-align: center;
    opacity: 90%;
    padding: 20px;
    margin: 35px;
    width: 150vw;
    height: 46vh;
  }
+
+.hidden {
+  background-image: none;
+}
+
+.cookpot-meal {
+  font-style: italic;
+}
+
+#random-meal-choice {
+  font-size: 30px;
+  font-weight: bold;
+}
